@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <form action="datalocation">
+                <h1>Apply Form To Get A Job At Our Company</h1>
+                <fieldset>
+                    <legend>
+                       <strong>Personal information!</strong>
+                    </legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="username" id="name" placeholder="Enter Your Name" required><br><br>
+                        <label for="address">Address:</label>
+                        <input type="address" name="address" id="adress" placeholder="Enter Your Adress" required><br><br>
+                        <label for="email-address">Email:</label>
+                        <input type="email" name="mail" id="email-address" placeholder="Enter Your Email" required><br><br>
+                        <label for="Tel">Telephone Number:</label>
+                        <input type="tel" name="tele" id="tel" placeholder="11-digit" required min="0" max="9" maxlength="11"><br><br>
+                        <label for="gender">Gender:</label><br><br>
+                        <input type="radio" id="gender" name="gender" value="male">Male<br><br>
+                        <input type="radio" id="gender" name="gender" value="female">Female<br><br>
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" placeholder="age" min="18" max="40"><br><br>
+                        <label for="skills">Skills:</label><br><br>
+                        <input type="checkbox" name="html" id="skills">HTML <br><br>
+                        <input type="checkbox" name="css" id="skills">CSS <br><br>
+                        <input type="checkbox" name="javascript" id="skills">javascript <br><br>
+                        <input type="checkbox" name="php" id="skills">php <br><br>
+                        <input type="checkbox" name="jquery" id="skills">jquery <br><br>
+
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><strong> Additional Information</strong></legend>
+                    <div>
+                        <label for="message"></label>
+                        <p>Write here any additional information.</p>
+                        <textarea name="message" id="message" cols="70" rows="20"></textarea>
+                    </div>
+                </fieldset>
+                <div class="sub">
+                    <input type="submit" style="background-color: rgb(168, 10, 10); color: cornsilk; width: 200px; height: 40px; font-size: 20px;" value="Send the application">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
